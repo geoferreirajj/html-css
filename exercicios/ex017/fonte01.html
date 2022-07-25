@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+        }
+
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work-Sans', sans serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quas praesentium sit tempora quisquam quis, nisi quibusdam sed delectus nobis. Laudantium architecto nobis enim consequuntur. Officiis minima illo quaerat dolorum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tempore, eveniet facere facilis officiis dignissimos mollitia maiores excepturi repudiandae sed obcaecati culpa at placeat voluptas quasi odit voluptatibus, sequi illum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, a inventore, totam nemo nostrum amet asperiores beatae sed assumenda nesciunt at tenetur. Doloribus debitis officiis officia fugiat eius sint repellat!</p>
+    <h2>Subtitulo do texto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quaerat iusto maiores quibusdam modi, tempore alias magni commodi obcaecati sunt, eaque laboriosam, delectus incidunt eius beatae soluta perspiciatis voluptas ratione?</p>
+</body>
+</html>
